@@ -1,0 +1,56 @@
+﻿@page
+@model PhonebookFrontend.Pages.UpsertModel
+
+
+<a asp-page="Index"><i class="fa fa-arrow-left fa-2x"></i></a>
+<div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-12" align="center">
+        <div class="card">
+            <form id="catalogueForm" asp-controller="Catalogue" asp-action="Upsert">
+                <div class="text-danger text-right" asp-validation-summary="ModelOnly"></div>
+                <div class="card-header">
+                    <h4>@(Model.Contact.Id <= 0 ? "Add" : "Edit") contact</h4>
+                </div>
+                <input asp-for="Contact.Id" hidden />
+                <div class="card-body">
+                    <div class="row" style="display: flex;justify-content: space-around;align-items: center;">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>First Name</label>&nbsp;<span style="color:red;">*</span>
+                                <input asp-for="Contact.FirstName" required class="form-control" />
+                                <span asp-validation-for="Contact.FirstName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Last Name</label>&nbsp;<span style="color:red;">*</span>
+                                <input asp-for="Contact.LastName" required class="form-control" />
+                                <span asp-validation-for="Contact.LastName" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="display: flex;justify-content: space-around;align-items: center;">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Email</label>&nbsp;<span style="color:red;">*</span>
+                                <input asp-for="Contact.Email" required class="form-control" />
+                                <span asp-validation-for="Contact.Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Phone</label>&nbsp;<span style="color:red;">*</span>
+                                <input asp-for="Contact.Phone" required class="form-control" />
+                                <span asp-validation-for="Contact.Phone" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-right">
+                    <button class="btn btn-primary"  type="submit">Save</button>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

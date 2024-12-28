@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1571B4C1-6832-4E4B-8291-76B25DD719D8}|PhonebookFrontend\\PhonebookFrontend.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookfrontend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1571B4C1-6832-4E4B-8291-76B25DD719D8}|PhonebookFrontend\\PhonebookFrontend.csproj|solutionrelative:phonebookfrontend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1571B4C1-6832-4E4B-8291-76B25DD719D8}|PhonebookFrontend\\PhonebookFrontend.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookfrontend\\wwwroot\\js\\contact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1571B4C1-6832-4E4B-8291-76B25DD719D8}|PhonebookFrontend\\PhonebookFrontend.csproj|solutionrelative:phonebookfrontend\\wwwroot\\js\\contact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1571B4C1-6832-4E4B-8291-76B25DD719D8}|PhonebookFrontend\\PhonebookFrontend.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookfrontend\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1571B4C1-6832-4E4B-8291-76B25DD719D8}|PhonebookFrontend\\PhonebookFrontend.csproj|solutionrelative:phonebookfrontend\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\services\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\services\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\models\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\models\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhonebookFrontend\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PhonebookFrontend\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhonebookFrontend\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PhonebookFrontend\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T13:12:37.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.js",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhonebookFrontend\\wwwroot\\js\\Contact.js",
+              "RelativeDocumentMoniker": "PhonebookFrontend\\wwwroot\\js\\Contact.js",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhonebookFrontend\\wwwroot\\js\\Contact.js",
+              "RelativeToolTip": "PhonebookFrontend\\wwwroot\\js\\Contact.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-28T13:12:34.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhonebookFrontend\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PhonebookFrontend\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhonebookFrontend\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PhonebookFrontend\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-28T13:12:28.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Services\\IContactService.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Services\\IContactService.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Services\\IContactService.cs",
+              "RelativeToolTip": "PhoneBookApi\\Services\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:12:18.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Services\\ContactService.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Services\\ContactService.cs",
+              "RelativeToolTip": "PhoneBookApi\\Services\\ContactService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:12:14.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Models\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Models\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Models\\MappingProfile.cs",
+              "RelativeToolTip": "PhoneBookApi\\Models\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:12:11.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Models\\Contact.cs",
+              "RelativeToolTip": "PhoneBookApi\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:12:10.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\DTOs\\ContactDTO.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\DTOs\\ContactDTO.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\DTOs\\ContactDTO.cs",
+              "RelativeToolTip": "PhoneBookApi\\DTOs\\ContactDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:12:08.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Program.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Program.cs",
+              "RelativeToolTip": "PhoneBookApi\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:32:43.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "PhoneBookApi\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:29:31.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

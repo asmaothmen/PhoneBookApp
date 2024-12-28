@@ -1,0 +1,99 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-10" style="color:#6777ef">
+        <h2>Contact List</h2>
+    </div>
+    <div class="col-md-2 text-right">
+        <a class="btn btn-primary text-white" style="background-color:#6777ef" asp-page="Upsert" asp-route-id="0">Add New Contact</a>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 table-responsive">
+            <table id="contactsTable" class="table table-stripe table-bordered table-hover">
+
+                <thead style="background-color:#c6caeb">
+                    <tr>
+                        <th class="text-center">First Name</th>
+                        <th class ="text-center">Last Name</th>
+                        <th class="text-center">Email</th>
+                        <th class="text-center">Phone</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var contact in Model.Contacts)
+                    {
+                        <tr>
+
+                            <td >@contact.FirstName</td>
+                            <td>@contact.LastName</td>
+                            <td>@contact.Email</td>
+                            <td>@contact.Phone</td>
+                            <td class="text-center">
+                                <a href="javascript:void(0)" class="dropdown-item" onclick="showDetails(@contact.Id)"><i class="fas fa-eye"></i></a>
+                                <a class="dropdown-item" asp-page="Upsert" asp-route-id="@contact.Id"><i class="fas fa-edit"></i></a>
+                                <form id="delete-@contact.Id" method="post" asp-page-handler="Delete" asp-route-id="@contact.Id" method="post">
+                                    <a class="dropdown-item" href="javascript:void(0)" onclick="deleteContact(@contact.Id)"><i class="fa fa-trash mr-3"></i></a>
+                                </form>
+                                </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:#c6caeb">
+                <h5 class="modal-title" id="detailsModalLabel" >Contact Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>First Name:</strong> <span id="detailFirstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="detailLastName"></span></p>
+                <p><strong>Email:</strong> <span id="detailEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="detailPhone"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript" src="~/js/Contact.js" asp-append-version="true"> </script>
+    <script>
+        async function showDetails(contactId) {
+            try {
+                // Fetch contact details from the API
+                const response = await fetch(`https://localhost:44325/api/contacts/${contactId}`);
+                const contact = await response.json();
+
+                // Populate the modal with contact details
+                document.getElementById('detailFirstName').innerText = contact.firstName;
+                document.getElementById('detailLastName').innerText = contact.lastName;
+                document.getElementById('detailEmail').innerText = contact.email;
+                document.getElementById('detailPhone').innerText = contact.phone;
+
+                // Show the modal
+                const modal = new bootstrap.Modal(document.getElementById('detailsModal'));
+                modal.show();
+            } catch (error) {
+                console.error('Error fetching contact details:', error);
+                alert('Failed to fetch contact details.');
+            }
+        }
+    </script>
+
+}

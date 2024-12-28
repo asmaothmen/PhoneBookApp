@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|c:\\users\\asma\\desktop\\phonebookapp\\phonebookapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E83D23A-27BB-487D-A222-E8EFD23B722F}|PhoneBookApi\\PhoneBookApi.csproj|solutionrelative:phonebookapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Program.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Program.cs",
+              "RelativeToolTip": "PhoneBookApi\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:32:43.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "PhoneBookApi\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\ASMA\\Desktop\\PhoneBookApp\\PhoneBookApi\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "PhoneBookApi\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:29:31.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
